@@ -1,0 +1,21 @@
+The ``count_vowels`` module
+============================
+
+Using ``count_vowels``
+---------------------
+
+Import function from module:
+
+>>> count_vowels = __import__('count_vowels').count_vowels
+
+Test case one :
+
+    >>> count_vowels("Hello")
+    2
+
+Test case two :
+
+    >>> count_vowels("")
+    0
+
+```

@@ -1,0 +1,22 @@
+The ``Reverse String`` module
+============================
+
+Using ``rev_string``
+---------------------
+
+Import function from module:
+
+>>> rev_string = __import__('rev_string').rev_string
+
+Test case one :
+
+    >>> count_vowels("Hello")
+    "olleh"
+    
+Test case two :
+
+    >>> rev_string("")
+    ""
+
+```
+    

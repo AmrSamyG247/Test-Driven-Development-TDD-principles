@@ -1,0 +1,26 @@
+The ``count_unique_elements`` module
+============================
+
+Using ``count_unique_elements``
+-------------------------------
+
+Import function from module:
+
+>>> count_unique_elements = __import__('unique_elements').count_unique_elements
+
+Test case one :
+
+    >>> count_unique_elements([4, 2, 9, 1, 7])
+    5
+    
+Test case two :
+
+    >>> count_unique_elements([8, 3, 5, 0, -2, 8, 3])
+    6
+    
+Test case three :
+
+    >>> count_unique_elements([1, 1, 1, 1, 1])
+    1
+
+```
